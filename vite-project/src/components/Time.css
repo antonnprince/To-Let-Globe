@@ -27,45 +27,35 @@ body{
 
 
 .text-box{
-	padding: 20px 10px;
+	padding: 50px 30px;
 	background: #000000;
 	position: relative;
 	border-radius: 6px;
-	font-size: 15px;
+	font-size: 20px;
 	color: aliceblue;
+    width: 50%;
 	border: 2px solid #6cc0c4;
 }
 
-.left-container{
-	left: -2%;
-    
-	/* animation:  slideInFromLeft 3s ease forwards; */
-}
 
-  
-.right-container{
-	left: 50%;
-	/* animation: slideInFromRight 3s ease forwards; */
-}
-
-
-.image1{
+/* .image1{
 	position: absolute;
 	border-radius: 50%;
 	right: 1.5%;
 	top: 18px;
 	z-index: 10;
-}
+} */
 
-.right-container .image1{
+/* .right-container .image1{
 	left: -39px;
-}
+} */
 
 
 .text-box h2{
 	font-weight: 600;
 	color: #e59948;
 }
+
 .left-container-arrow{
 	height: 0;
 	width: 0;
@@ -86,7 +76,7 @@ body{
 	z-index: 0; 
 	border-top: 15px solid transparent;
 	border-bottom: 15px solid transparent;
-	border-right: 25px solid #6cc0c4;
+	border-right: 45px solid #6cc0c4;
 	left: -25px;
 }
 

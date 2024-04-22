@@ -7,15 +7,15 @@ import { motion } from "framer-motion"
 function Time() {
   return (
     <div>
-      <div className="head-title">
-        <h1>About Us</h1>
-      </div>
+        <div className="head-title">
+            <h1>About Us</h1>
+        </div>
 
 
-        <div className="timeline">
-        <motion.div initial={{x:-1000}} whileInView={{ x: -650 }}>
-          <div className="checkpoint left-container"/>
-          <img className="image1" src={logo1} alt="logo" />
+        <div className="timeline space-y-12 mx-4">
+            <motion.div initial={{x:-1000}} whileInView={{ x: -50 }}>
+                <div className="checkpoint left-container w-1/4 h-1/3"/>
+          {/* <img className="image1" src={logo1} alt="logo" /> */}
             <div className='text-box'>
               <h2>Who are we?</h2>
               <p>
@@ -24,11 +24,11 @@ function Time() {
               <span className='left-container-arrow'></span>
             </div>
             </motion.div>
-          </div>
+          
 
-        <motion.div  initial={{x:700}} whileInView={{x:500}}>
+        <motion.div  initial={{x:1000}} whileInView={{x:600}}>
           <div className="checkpoint right-container">
-          <img className="image1" src={logo1} alt="logo" />
+          {/* <img className="image1" src={logo1} alt="logo" /> */}
             <div className='text-box'>
               <h2>Our Journey</h2>
               <p>
@@ -39,9 +39,9 @@ function Time() {
             </div>
             </motion.div>
           
-        <motion.div initial={{x:-1000}} whileInView={{ x: -650 }}>
-          <div className="checkpoint left-container">
-          <img className="image1" src={logo1} alt="logo" />
+        <motion.div initial={{x:-1000}} whileInView={{ x: -50 }}>
+          <div className="checkpoint left-container w-1/4 h-1/3"/>
+          {/* <img className="image1" src={logo1} alt="logo" /> */}
             <div className='text-box'>
               <h2>Mission and Vision</h2>
               <p>
@@ -49,12 +49,12 @@ function Time() {
               </p>
               <span className='left-container-arrow'></span>
             </div>
-          </div>
+        
           </motion.div>
 
-          <motion.div  initial={{x:700}} whileInView={{x:500}}>
+          <motion.div  initial={{x:700}} whileInView={{x:600}}>
           <div className="checkpoint right-container">
-          <img className="image1" src={logo1} alt="logo" />
+          {/* <img className="image1" src={logo1} alt="logo" /> */}
             <div className='text-box'>
               <h2>Services we offer</h2>
               <p>
@@ -65,9 +65,9 @@ function Time() {
           </div>
           </motion.div>
 
-          <motion.div initial={{x:-1000}} whileInView={{ x: -650 }}>
-          <div className="checkpoint left-container">
-          <img className="image1" src={logo1} alt="logo" />
+          <motion.div initial={{x:-1000}} whileInView={{ x: -50 }}>
+          <div className="checkpoint left-container w-1/4 h-1/3" />
+          {/* <img className="image1" src={logo1} alt="logo" /> */}
             <div className='text-box'>
               <h2>Client-Centric Approach</h2>
               <p>
@@ -75,12 +75,12 @@ function Time() {
               </p>
               <span className='left-container-arrow'></span>
             </div>
-          </div>
+        
         </motion.div>
 
-        <motion.div  initial={{x:700}} whileInView={{x:500}}>
+        <motion.div  initial={{x:700}}whileInView={{x:600}}>
           <div className="checkpoint right-container">
-          <img className="image1" src={logo1} alt="logo" />
+          {/* <img className="image1" src={logo1} alt="logo" /> */}
             <div className='text-box'>
               <h2>Expert Team</h2>
               <p>
@@ -92,7 +92,7 @@ function Time() {
           </motion.div>
         </div>
        
-    
+    </div>
   );
 }
 
